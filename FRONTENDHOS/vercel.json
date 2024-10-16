@@ -1,0 +1,24 @@
+{
+    "rewrites": [
+      { "source": "/user/signup", "destination": "/" },
+      { "source": "/user/signin", "destination": "/" },
+      { "source": "/user/dashboard", "destination": "/" },
+      { "source": "/user/about", "destination": "/" },
+      { "source": "/user/contact", "destination": "/" },
+      { "source": "/user/hotels", "destination": "/" },
+      { "source": "/user/hotels/:hotelid", "destination": "/" },
+      { "source": "/(.*)", "destination": "/" }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+  
