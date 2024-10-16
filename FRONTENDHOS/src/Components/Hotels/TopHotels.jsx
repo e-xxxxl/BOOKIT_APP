@@ -22,7 +22,7 @@ const TopHotels = () => {
   
   useEffect(() => {
     // Fetch hotels from the backend
-    fetch("https://book-it-alpha.vercel.app/api/rooms")
+    fetch("https://bookit-app-vn3p.vercel.app/api/rooms")
       .then((response) => response.json())
       .then((data) => {
         setRooms(data);
@@ -32,7 +32,7 @@ const TopHotels = () => {
   }, []);
   useEffect(() => {
     // Fetch hotels from the backend
-    fetch("https://book-it-alpha.vercel.app/api/nestRooms")
+    fetch("https://bookit-app-vn3p.vercel.app/api/nestRooms")
       .then((response) => response.json())
       .then((data) => {
         setnestRooms(data);
@@ -42,7 +42,7 @@ const TopHotels = () => {
   }, []);
   useEffect(() => {
     // Fetch hotels from the backend
-    fetch("https://book-it-alpha.vercel.app/api/ekoRooms")
+    fetch("https://bookit-app-vn3p.vercel.app/api/ekoRooms")
       .then((response) => response.json())
       .then((data) => {
         setekoRooms(data);
@@ -52,7 +52,7 @@ const TopHotels = () => {
   }, []);
   useEffect(() => {
     // Fetch hotels from the backend
-    fetch("https://book-it-alpha.vercel.app/api/hotels")
+    fetch("https://bookit-app-vn3p.vercel.app/api/hotels")
       .then((response) => response.json())
       .then((data) => {
         setHotels(data);

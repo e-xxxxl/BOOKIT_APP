@@ -11,7 +11,7 @@ const Signup = () => {
   const [message, setMessage] = useState(''); // State to hold the message
   const [isLoading, setIsLoading] = useState(false); // State to control loading
   
-   const url = "https://book-it-alpha.vercel.app/user/signup"
+   const url = "https://bookit-app-vn3p.vercel.app/user/signup"
 
   const navigate = useNavigate();
 

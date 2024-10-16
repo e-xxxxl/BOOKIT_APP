@@ -11,7 +11,7 @@ const Hoteldetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://book-it-alpha.vercel.app/api/hotels/${hotelid}`); // Fetch hotel details
+        const response = await fetch(`https://bookit-app-vn3p.vercel.app/api/hotels/${hotelid}`); // Fetch hotel details
         if (!response.ok) { // Check if response is not OK
           throw new Error('Hotel not found');
         }
