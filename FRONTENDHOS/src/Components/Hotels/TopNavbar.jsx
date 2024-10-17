@@ -32,7 +32,7 @@ const TopNavbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-white shadow">
         <div className="container-fluid">
           <img draggable='false' src={log} alt="Book It" style={{ width: "150px" }} />
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler  ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,7 +56,9 @@ const TopNavbar = () => {
                 </a>
               </li>
             </ul>
-            <div style={{ position: 'relative', marginLeft: "10px", }}>
+         
+          </div>
+          <div style={{ position: 'relative', marginLeft: "10px", }}>
       <Dropdown onToggle={(isOpen) => setIsOpen(isOpen)}>
         <Dropdown.Toggle as="div" style={{ cursor: "pointer" }}>
           <Avatar
@@ -75,7 +77,6 @@ const TopNavbar = () => {
         </Dropdown.Menu>
       </Dropdown>
     </div>
-          </div>
         </div>
       </nav>
       <Outlet />

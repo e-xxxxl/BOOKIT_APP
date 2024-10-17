@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbardash from '../Dashboard/Navbardash'
 import Footer from '../Footer/Footer'
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+
+    if (!token) {
+        navigate('/user/signin'); // Redirect to sign-in if no token
+    }
+}, [navigate]);
   return (
     <>
     <Navbardash/>
