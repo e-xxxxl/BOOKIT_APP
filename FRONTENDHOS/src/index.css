@@ -30,7 +30,13 @@ overflow-x: hidden !important;
     padding-top: 12px;
     color: #ffffff;
 }
-
+.hoteldes{
+    width: 100%;
+}
+.amen{
+    /* border: 2px solid grey; */
+    width: 100%;
+}
 /*** Navbar ***/
 
 
@@ -356,7 +362,7 @@ main {
     margin-bottom: 0px !important;
   }
   .foot{
-    background-color: #445297;
+    background-color: #445297 !important;
 color: white !important;
   }
   .logout-button {
