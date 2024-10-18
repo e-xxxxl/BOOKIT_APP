@@ -10,6 +10,7 @@ import axios from 'axios';
 const Signup = () => {
   const [message, setMessage] = useState(''); // State to hold the message
   const [isLoading, setIsLoading] = useState(false); // State to control loading
+  const [isPasswordShow, setIsPasswordShow] = useState(false)
   
    const url = "https://bookit-app-vn3p.vercel.app/user/signup"
 
@@ -91,9 +92,13 @@ const Signup = () => {
                   <small>{formik.errors.Email}</small>
                 </p>
                 <p>
-                  <input type="password" placeholder="Password" name='Password' onChange={formik.handleChange} />
-                  <small>{formik.errors.Password}</small>
-                </p>
+                                <div className='d-flex'>
+                                <input type={isPasswordShow ? "text" : "password"} placeholder="Password" name='Password'  onChange={formik.handleChange}/>
+                                <button type='button' class="input-group-text" id="addon-wrapping" onClick={() => { setIsPasswordShow(!isPasswordShow) }} ><i class={`fa-solid fa-eye${isPasswordShow ? "" : "-slash"}`}></i></button>
+                                </div>
+                                <small>{formik.errors.Password}</small>
+                                
+                            </p>
                 <p>
                   <button className='btn w-100 btn-primary'  disabled={isLoading}>
                     {

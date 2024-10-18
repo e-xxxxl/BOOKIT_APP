@@ -9,6 +9,7 @@ import axios from 'axios';
 const Signin = () => {
     const [message, setMessage] = useState(''); // State for messages
     const [isLoading, setIsLoading] = useState(false); 
+    const [isPasswordShow, setIsPasswordShow] = useState(false)
   const   navigate = useNavigate();   
 
      const url = "https://bookit-app-vn3p.vercel.app/user/signin"
@@ -79,12 +80,15 @@ const Signin = () => {
                         {message && <p className="error-message fw-bolder text-danger fs-3">{message}!!!!!!!!</p>} 
                         <form onSubmit={formik.handleSubmit}>
                             <p>
-                                <input type="email" placeholder="Email" name='Email' onChange={formik.handleChange}/>
+                                <input type="email" placeholder="EmaiIl" name='Email' onChange={formik.handleChange}/>
                                 <small>{formik.errors.Email}</small>
                                 
                             </p>
                             <p>
-                                <input type="password" placeholder="Password" name='Password' onChange={formik.handleChange}/>
+                                <div className='d-flex'>
+                                <input type={isPasswordShow ? "text" : "password"} placeholder="Password" name='Password'  onChange={formik.handleChange}/>
+                                <button type='button' class="input-group-text" id="addon-wrapping" onClick={() => { setIsPasswordShow(!isPasswordShow) }} ><i class={`fa-solid fa-eye${isPasswordShow ? "" : "-slash"}`}></i></button>
+                                </div>
                                 <small>{formik.errors.Password}</small>
                                 
                             </p>
