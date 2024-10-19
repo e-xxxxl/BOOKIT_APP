@@ -113,7 +113,7 @@ const Dashboard = () => {
     </div>
       <div className="px-4 pt-5 my-5 text-center">
         <h1 className="display-4 fw-bold text-body-emphasis">
-          WELCOME TO BOOKIT!  <span>{displayName}</span> 
+          WELCOME TO BOOKIT!<span>{displayName}</span> 
         </h1>
         {/* {email.map((user) => (
           <li key={user._id}>
@@ -271,7 +271,7 @@ const Dashboard = () => {
               </option>
               <option value="1">Dining Packages</option>
               <option value="2">Seasonal Packages</option>
-              <option value="3">Business</option>
+              <option value="3">Business Packages</option>
             </select>
 
             <select
