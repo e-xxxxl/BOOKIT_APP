@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import Footer from '../Footer/Footer'
-import Navbardash from '../Dashboard/Navbardash'
 import Bookit from "../../assets/log.jpg"
 import { Link, useNavigate  } from 'react-router-dom';
 
@@ -16,7 +15,6 @@ const About = () => {
 }, [navigate]);
   return (
     <>
-    <Navbardash/>
     <div>
             <div>
                 <h1 className="display-4 fw-thin text-body-emphasis text-center mt-3">About Bookit </h1>

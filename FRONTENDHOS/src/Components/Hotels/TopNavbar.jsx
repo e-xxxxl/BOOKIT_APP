@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import log from "../../assets/log.jpg";
 import Avatar from 'react-avatar';
 import { Outlet } from 'react-router-dom';
@@ -6,8 +6,16 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 const TopNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState()
 
- 
+  useEffect(() => {
+    setIsLoading(true);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+  }, []);
 
   const storedName = localStorage.getItem("userName");
   let displayName = "User"; 
@@ -29,6 +37,10 @@ const TopNavbar = () => {
 
   return (
     <>
+    {isLoading?(
+      <h1>Loading</h1>
+    ):(
+      <>
       <nav className="navbar navbar-expand-lg bg-body-white shadow">
         <div className="container-fluid">
           <img draggable='false' src={log} alt="Book It" style={{ width: "150px" }} />
@@ -80,6 +92,8 @@ const TopNavbar = () => {
         </div>
       </nav>
       <Outlet />
+      </>
+    )}
     </>
   );
 };
