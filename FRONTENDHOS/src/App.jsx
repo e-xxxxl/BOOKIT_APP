@@ -12,7 +12,6 @@ import TopNavbar from './Components/Hotels/TopNavbar';
 import TopHotels from './Components/Hotels/TopHotels';
 import About from './Components/About us/About';
 import Contact from './Components/Contact/Contact';
-import Payments from './Components/Hotels/Payments';
 
 const App = () => {
   return (
@@ -41,7 +40,6 @@ const App = () => {
       <Route path="/user/hotels" element={<TopNavbar />}>
         <Route index element={<TopHotels />} /> 
         <Route path="/user/hotels/:hotelid" element={<Hoteldetails />} />
-        <Route path="/user/hotels/payments" element={<Payments />} />
       </Route>
       
     </Routes>
