@@ -41,7 +41,7 @@ const App = () => {
       <Route path="/user/hotels" element={<TopNavbar />}>
         <Route index element={<TopHotels />} /> 
         <Route path="/user/hotels/:hotelid" element={<Hoteldetails />} />
-        <Route path="/user/payments" element={<Payments />} />
+        <Route path="/user/hotels/payments" element={<Payments />} />
       </Route>
       
     </Routes>
