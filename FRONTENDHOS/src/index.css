@@ -520,7 +520,7 @@ color: white !important;
         height: 0px;
         /* background: white; */
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
-        padding: 0px 20px 0px 20px !important;
+        padding: 0px 20px 0px 20px !important;;
       }
       
       .paystackitem {
@@ -532,6 +532,7 @@ color: white !important;
         height: 200px;
         width: 100%;
         object-fit: cover;
+        border-radius: 10px;
       }   
       /* paystackoverlay-effect {
         position: absolute;
@@ -565,7 +566,8 @@ color: white !important;
       
       .paystackcheckout {
         background: #445297; /* fallback for old browsers */
-        margin-top: 30px;
+        margin-top: 10px;
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -611,7 +613,7 @@ color: white !important;
       .paystack-button {
         cursor: pointer;
         text-align: center;
-        font-size: 10px;
+        font-size: 20px;
         letter-spacing: 0.1rem;
         text-transform: uppercase;
         background-color: white;
