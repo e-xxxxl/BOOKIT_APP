@@ -134,7 +134,7 @@ const TopHotels = () => {
     <>
       <div className="container">
         <div>
-          <h1 className="text-center display-2 mb-4">Explore Our Hotels</h1>
+          <h1 className="text-center display-2 mb-4 mt-4">Explore Our Hotels</h1>
           <p className="text-center">
             Discover a world class hotel experience with our carefully curated
             collection of luxury accommodations{" "}
