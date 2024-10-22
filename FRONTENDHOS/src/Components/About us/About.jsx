@@ -23,7 +23,7 @@ const About = () => {
 
             <div style={{backgroundColor:"white"}} class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
+      <div class="col-10 col-sm-8 col-lg-6" data-aos="fade-up" data-aos-delay="700" >
         <img src="https://media.istockphoto.com/id/1448506100/photo/male-hotel-receptionist-assisting-female-guest.jpg?s=1024x1024&w=is&k=20&c=6nKtlBaGlK3jOg6N0VPXFUdU__FL8JBmIeQSzzdOlxw=" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       </div>
       <div class="col-lg-6">
@@ -42,7 +42,9 @@ const About = () => {
       </div>
       <div class="col-10 col-sm-8 col-lg-6">
       <img src={Bookit} alt=""  className='mb-3' style={{width:"100px"}}/>
+        <div data-aos="zoom-in" data-aos-delay="500">
         <img src="https://www.mayfairhotel.com.au/wp-content/uploads/2022/05/deluxe-king-room-img1-768x359.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        </div>
       </div>
       <Link to="/user/dashboard" className='text-decoration-none'>
                      <button class="btn rounded-5  fw-bold d-lg-block"   style={{ backgroundColor: "#445297", color: "white" }} > Book Accomodation </button>
@@ -50,7 +52,7 @@ const About = () => {
     </div>
   </div>
 
-            </div>
+          </div>
     </div>
     <Footer/>
     </>

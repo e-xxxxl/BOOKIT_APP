@@ -17,7 +17,12 @@ const Layoutdash = () => {
   return (
     <>
     {isLoading? (
-      <h1>Loading</h1>
+
+<div class="loader">
+<span class="loader-text">BOOKIT</span>
+  <span class="load"></span>
+</div>
+
     ):(
     <>
     <Navbardash/>
