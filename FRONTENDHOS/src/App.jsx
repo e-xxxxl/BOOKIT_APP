@@ -38,10 +38,10 @@ const App = () => {
       <Route path="/user/dashboard" element={<Layoutdash />}>
         <Route index element={<Dashboard />} /> 
       </Route>
-      <Route path="/user/about" element={<About/>}>
+      <Route path="/user/about" element={<Layoutdash/>}>
         <Route index element={<About />} /> 
       </Route>
-      <Route path="/user/contact" element={<Contact/>}>
+      <Route path="/user/contact" element={<Layoutdash/>}>
         <Route index element={<Contact/>} /> 
       </Route>
 

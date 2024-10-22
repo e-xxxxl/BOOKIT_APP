@@ -10,7 +10,7 @@ import axios from 'axios';
 const Signup = () => {
   const [message, setMessage] = useState(''); // State to hold the message
   const [isLoading, setIsLoading] = useState(false); // State to control loading
-  const [isPasswordShow, setIsPasswordShow] = useState(false)
+  const [isPasswordShow, setIsPasswordShow] = useState(false);
   
    const url = "https://bookit-app-vn3p.vercel.app/user/signup"
 
