@@ -323,7 +323,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            <Link to="/user/hotels/king-room/payments">
+                            Book This Shit
+                            
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -498,7 +504,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            <Link to ="/user/hotels/royal-room/payments">
+                            
+                            Book This Shit
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -673,7 +685,14 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            
+                          <Link to ="/user/hotels/double-room/payments">
+                            
+                            Book This Shit
+                            </Link>
+
+                          </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -866,7 +885,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                              <Link to="/user/hotels/classic-room/payments">
+                              
+                            Book This Shit
+                              </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -1041,7 +1066,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            <Link to="/user/hotels/imperial-room/payments">
+                            
+                            Book This Shit
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -1216,7 +1247,14 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            
+                          <Link to="/user/hotels/presidential-suite/payments">
+                            
+                            Book This Shit
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -1409,7 +1447,11 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                          <Link to="/user/hotels/classic-eko-suite/payments">
+                            Book This Shit
+                            </Link>
+                          </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -1584,7 +1626,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            
+                          <Link to="/user/hotels/studio-eko-suite/payments">
+                            Book This Shit
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
@@ -1759,7 +1807,13 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">Book This Shit</Button>
+                          <Button variant="secondary">
+                            
+                          <Link to="/user/hotels/atlantic-eko-suite/payments">
+                            Book This Shit
+                            </Link>
+                            
+                            </Button>
                         </Modal.Footer>
                       </Modal>
                     </div>
