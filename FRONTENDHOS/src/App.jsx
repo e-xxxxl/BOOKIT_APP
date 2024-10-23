@@ -51,7 +51,7 @@ const App = () => {
       </Route>
 
       <Route path="/user/hotels/king-room/payments" element={<Kingroom/>}/> 
-      <Route path="/user/hotels/doyal-room/payments" element={<Royalroom/>}/> 
+      <Route path="/user/hotels/royal-room/payments" element={<Royalroom/>}/> 
       <Route path="/user/hotels/double-room/payments" element={<DoubleRoom/>}/> 
       <Route path="/user/hotels/classic-room/payments" element={<Classicroom/>}/> 
       <Route path="/user/hotels/imperial-room/payments" element={<Imperialroom/>}/> 

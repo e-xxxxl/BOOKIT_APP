@@ -173,19 +173,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow}
                       >
                         View
                       </Button>
 
-                      <button
+                      <Link to="/user/hotels/king-room/payments" className="text-decoration-none">
+                     <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -323,9 +325,9 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
-                            <Link to="/user/hotels/king-room/payments">
-                            Book This Shit
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
+                            <Link to="/user/hotels/king-room/payments" className="text-decoration-none text-white fw-bold">
+                            Book Now
                             
                             </Link>
                             
@@ -356,19 +358,23 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow2}
                       >
                         View
                       </Button>
 
+                      <Link to ="/user/hotels/royal-room/payments" className="text-decoration-none text-white fw-bold" >
+                    
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
+
                       <Modal
                         size="lg"
                         centered
@@ -504,10 +510,10 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
-                            <Link to ="/user/hotels/royal-room/payments">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
+                            <Link to ="/user/hotels/royal-room/payments" className="text-decoration-none text-white fw-bold">
                             
-                            Book This Shit
+                            Book Now
                             </Link>
                             
                             </Button>
@@ -537,19 +543,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow3}
                       >
                         View
                       </Button>
 
+                      <Link to ="/user/hotels/double-room/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦277,875
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -685,11 +693,11 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
                             
-                          <Link to ="/user/hotels/double-room/payments">
+                          <Link to ="/user/hotels/double-room/payments" className="text-decoration-none text-white fw-bold">
                             
-                            Book This Shit
+                            Book Now
                             </Link>
 
                           </Button>
@@ -737,19 +745,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow4}
                       >
                         View
                       </Button>
 
+                      <Link to="/user/hotels/classic-room/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -885,10 +895,10 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
-                              <Link to="/user/hotels/classic-room/payments">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}} >
+                              <Link to="/user/hotels/classic-room/payments" className="text-decoration-none text-white fw-bold">
                               
-                            Book This Shit
+                            Book Now
                               </Link>
                             
                             </Button>
@@ -918,19 +928,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow5}
                       >
                         View
                       </Button>
 
+                      <Link to="/user/hotels/imperial-room/payments" className="text-decoration-none text-white fw-bold" >
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1066,10 +1078,10 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
-                            <Link to="/user/hotels/imperial-room/payments">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}} >
+                            <Link to="/user/hotels/imperial-room/payments" className="text-decoration-none text-white fw-bold">
                             
-                            Book This Shit
+                            Book Now
                             </Link>
                             
                             </Button>
@@ -1099,19 +1111,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow6}
                       >
                         View
                       </Button>
 
+                      <Link to="/user/hotels/presidential-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦277,875
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1247,11 +1261,11 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
                             
-                          <Link to="/user/hotels/presidential-suite/payments">
+                          <Link to="/user/hotels/presidential-suite/payments" className="text-decoration-none text-white fw-bold">
                             
-                            Book This Shit
+                            Book Now
                             </Link>
                             
                             </Button>
@@ -1299,19 +1313,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow7}
                       >
                         View
                       </Button>
 
+                    <Link to="/user/hotels/classic-eko-suite/payments" className="text-decoration-none text-white fw-bold" >
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1447,9 +1463,9 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
-                          <Link to="/user/hotels/classic-eko-suite/payments">
-                            Book This Shit
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
+                          <Link to="/user/hotels/classic-eko-suite/payments" className="text-decoration-none text-white fw-bold">
+                            Book Now
                             </Link>
                           </Button>
                         </Modal.Footer>
@@ -1478,19 +1494,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow8}
                       >
                         View
                       </Button>
 
+                      <Link to="/user/hotels/studio-eko-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1626,10 +1644,10 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
                             
-                          <Link to="/user/hotels/studio-eko-suite/payments">
-                            Book This Shit
+                          <Link to="/user/hotels/studio-eko-suite/payments" className="text-decoration-none text-white fw-bold">
+                            Book Now
                             </Link>
                             
                             </Button>
@@ -1659,19 +1677,21 @@ const TopHotels = () => {
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
                       <Button
-                        className="btn me-2 rounded-0 fw-bold d-lg-block"
+                        className="btn me-2 border-0 rounded-0 fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                         onClick={handleShow9}
                       >
                         View
                       </Button>
 
+                      <Link to="/user/hotels/atlantic-eko-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
-                        ₦277,875
+                        ₦277,880
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1807,10 +1827,10 @@ const TopHotels = () => {
                           </Modal.Body>
                         </div>
                         <Modal.Footer>
-                          <Button variant="secondary">
+                          <Button className="border-0" style={{backgroundColor:"#445297"}}>
                             
-                          <Link to="/user/hotels/atlantic-eko-suite/payments">
-                            Book This Shit
+                          <Link to="/user/hotels/atlantic-eko-suite/payments" className="text-decoration-none text-white fw-bold">
+                            Book Now
                             </Link>
                             
                             </Button>

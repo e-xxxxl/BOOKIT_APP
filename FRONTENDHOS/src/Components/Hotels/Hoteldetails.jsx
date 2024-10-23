@@ -36,13 +36,21 @@ const Hoteldetails = () => {
       {message && <p className="error-message fw-bolder text-danger fs-3">{message}</p>}
       {hotel && (
         <>
-          <div>Hotel Name: {hotel.name}</div>
-          <div>Description: {hotel.description}</div>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+          <div class="col-lg-6 mx-auto">
+            <h1>{hotel.name}</h1>
+          <p className='lead mb-4' >{hotel.description}</p>
+          </div>
+          <div className='container px-5'>
           <img
             src={hotel.imageUrl}
             className="bd-placeholder-img card-img-top"
             alt={hotel.name}
           />
+          </div>
+        </div>
+       
+       
         </>
       )}
       <a href="#" className="back-to-top">
@@ -51,5 +59,7 @@ const Hoteldetails = () => {
     </>
   );
 };
+
+
 
 export default Hoteldetails;

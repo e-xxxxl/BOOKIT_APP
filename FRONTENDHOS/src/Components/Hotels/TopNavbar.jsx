@@ -38,7 +38,10 @@ const TopNavbar = () => {
   return (
     <>
     {isLoading?(
-      <h1>Loading</h1>
+    <div class="loader">
+    <span class="loader-text">BOOKIT</span>
+      <span class="load"></span>
+  </div>
     ):(
       <>
       <nav className="navbar navbar-expand-lg bg-body-white shadow">

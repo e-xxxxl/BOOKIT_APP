@@ -78,7 +78,7 @@ const amount = 27787500;
               />
             </div>
             <div className="paystackcheckout-field">
-              <label>Email</label>
+              <label>Emaill</label>
               <input
                 required
                 type="text"
