@@ -1689,7 +1689,7 @@ const TopHotels = () => {
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
-                        ₦277,875
+                        ₦277,880
                       </button>
                       </Link>
                       <Modal
