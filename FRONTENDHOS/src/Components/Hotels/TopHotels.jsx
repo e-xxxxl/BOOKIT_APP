@@ -180,12 +180,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
-                      <button
+                      <Link to="/user/hotels/king-room/payments" className="text-decoration-none">
+                     <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -363,12 +365,16 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to ="/user/hotels/royal-room/payments" className="text-decoration-none text-white fw-bold" >
+                    
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
+
                       <Modal
                         size="lg"
                         centered
@@ -544,12 +550,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to ="/user/hotels/double-room/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦277,875
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -744,12 +752,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to="/user/hotels/classic-room/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -925,12 +935,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to="/user/hotels/imperial-room/payments" className="text-decoration-none text-white fw-bold" >
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1106,12 +1118,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to="/user/hotels/presidential-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦277,875
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1306,12 +1320,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                    <Link to="/user/hotels/classic-eko-suite/payments" className="text-decoration-none text-white fw-bold" >
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦284,287
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1485,12 +1501,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to="/user/hotels/studio-eko-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦433,912
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
@@ -1666,12 +1684,14 @@ const TopHotels = () => {
                         View
                       </Button>
 
+                      <Link to="/user/hotels/atlantic-eko-suite/payments" className="text-decoration-none text-white fw-bold">
                       <button
                         class="btn rounded-0  fw-bold d-lg-block"
                         style={{ backgroundColor: "#445297", color: "white" }}
                       >
                         ₦277,875
                       </button>
+                      </Link>
                       <Modal
                         size="lg"
                         centered
