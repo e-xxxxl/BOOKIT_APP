@@ -2,17 +2,24 @@ import React from "react";
 
 function NotFound() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.oops}>Oops!</h1>
-      <p style={styles.text}>404 - PAGE NOT FOUND?</p>
-      <p style={styles.subText}>
-        The page you are looking for might have been removed, had its name
-        changed, or is temporarily unavailable...........
-      </p>
-      <button style={styles.button} onClick={() => window.location.href = "/"}>
+    <>
+    
+    <div id="notfound">
+		<div class="notfound">
+			<div class="notfound-404">
+				<div></div>
+				<h1>404</h1>
+			</div>
+			<h2>Page not found</h2>
+			<p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+			<button onClick={() => window.location.href = "/"}>
         GO TO HOMEPAGE
       </button>
-    </div>
+		</div>
+	</div>
+
+      
+      </>
   );
 }
 
