@@ -73,10 +73,10 @@ const Footer = () => {
               </p>
               <p>
                 <MDBIcon color='white' icon='envelope' className='me-3' />
-                eaajejohnson@gmail.com | samuelsam91e@gmail.com
+                eajejohnson@gmail.com | samuelsam91e@gmail.com
               </p>
               <p>
-                <MDBIcon color='white' icon='phone' className='me-3' /> +2348160885374
+                <MDBIcon color='white' icon='phone' className='me-3' /> +2348160885374, +2349076618975
               </p>
 
             </MDBCol>
