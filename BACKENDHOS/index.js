@@ -12,10 +12,12 @@ const mongoose = require("mongoose")
 app.use(express.urlencoded({ extended: true, limit: "100mb" }))
 app.use(express.json())
 app.use(cors({
-  origin: "*",
+  origin: "https://bookit-app-topaz.vercel.app", // your frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
 }));
+
 
 app.use("/user", userRouter)
 app.use("/api", hotelRouter)
