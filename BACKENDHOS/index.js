@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true, limit: "100mb" }))
 app.use(express.json())
 const allowedOrigins = [
   "https://bookit-app-topaz.vercel.app", // your frontend
-  "http://localhost:3000"                // for local dev
+  "http://localhost:3000"                
 ];
 
 app.use(cors({
