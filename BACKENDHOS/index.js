@@ -11,11 +11,13 @@ const mongoose = require("mongoose")
 
 app.use(express.urlencoded({ extended: true, limit: "100mb" }))
 app.use(express.json())
+// Allowed frontend URLs
 const allowedOrigins = [
-  "https://bookit-app-topaz.vercel.app", // your frontend
-  "http://localhost:3000"                
+  "https://bookit-app-topaz.vercel.app", // your React frontend
+  "http://localhost:3000"                // local dev
 ];
 
+// CORS config
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
@@ -26,12 +28,11 @@ app.use(cors({
   },
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true,
+  credentials: true
 }));
 
-// 👇 handle preflight explicitly
+// Handle preflight explicitly (important for Vercel)
 app.options("*", cors());
-
 
 app.use("/user", userRouter)
 app.use("/api", hotelRouter)
