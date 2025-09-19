@@ -11,12 +11,26 @@ const mongoose = require("mongoose")
 
 app.use(express.urlencoded({ extended: true, limit: "100mb" }))
 app.use(express.json())
+const allowedOrigins = [
+  "https://bookit-app-topaz.vercel.app", // your frontend
+  "http://localhost:3000"                // for local dev
+];
+
 app.use(cors({
-  origin: "https://bookit-app-topaz.vercel.app", // your frontend
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true
+  credentials: true,
 }));
+
+// 👇 handle preflight explicitly
+app.options("*", cors());
 
 
 app.use("/user", userRouter)
